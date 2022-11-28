@@ -1,0 +1,2 @@
+Program('app', ['app.c'], LIBS=['base'], CPPPATH=['../base_component'], LIBPATH=['../base_component'])
+

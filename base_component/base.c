@@ -1,0 +1,4 @@
+
+void base_func()
+{
+}
