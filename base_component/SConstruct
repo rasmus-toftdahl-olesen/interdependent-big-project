@@ -1,1 +1,4 @@
-StaticLibrary('base', ['base.c'])
+BASE_LIB = 'base'
+Export('BASE_LIB')
+
+StaticLibrary(BASE_LIB, ['base.c'])

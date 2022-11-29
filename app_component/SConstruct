@@ -1,2 +1,3 @@
-Program('app', ['app.c'], LIBS=['base'], CPPPATH=['../base_component'], LIBPATH=['../base_component'])
-
+SConscript('../base_component/SConstruct')
+Import('BASE_LIB')
+Program('app', ['app.c'], LIBS=[BASE_LIB], CPPPATH=['../base_component'], LIBPATH=['../base_component'])
