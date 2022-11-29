@@ -1,0 +1,2 @@
+BASE_LIB = 'base'
+Export('BASE_LIB')

@@ -1,4 +1,4 @@
-BASE_LIB = 'base'
-Export('BASE_LIB')
+SConscript('export.scons')
+Import('BASE_LIB')
 
 StaticLibrary(BASE_LIB, ['base.c'])

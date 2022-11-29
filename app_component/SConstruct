@@ -1,3 +1,3 @@
-SConscript('../base_component/SConstruct')
+SConscript('../base_component/export.scons')
 Import('BASE_LIB')
 Program('app', ['app.c'], LIBS=[BASE_LIB], CPPPATH=['../base_component'], LIBPATH=['../base_component'])
